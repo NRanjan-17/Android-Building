@@ -7,7 +7,7 @@
 
 
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="NRanjan-17" revision="Pe_mido" />
- <project path="vendor/xiaomi" name="vendor_aosp" remote="NRanjan-17" revision="twelve" />
+ <project path="vendor/xiaomi" name="vendor_evolution" remote="NRanjan-17" revision="snow" />
  <project path="kernel/xiaomi/mido" name="kernel-mido" remote="NRanjan-17" revision="lineage-18.1" />
 
  
