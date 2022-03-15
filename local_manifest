@@ -5,10 +5,13 @@
      
 
 
- <remove-project name="external_faceunlock" />
+ 
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="vendor/xiaomi" name="vendor_evolution" remote="NRanjan-17" revision="snow" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
+ 
+
+ <remove-project name="external_faceunlock" />
 
  
 </manifest>
