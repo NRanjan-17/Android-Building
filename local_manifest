@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="NRanjan-17" fetch="https://github.com/NRanjan-17"/>
+     <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17"/>
 
      
 
 
- <!-- Sync trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
- 
- <!-- Remove HALs -->
- <remove-project name="external_faceunlock" />
+     <!-- Sync trees -->
+     <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+     <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+     <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
+     
+     <!-- Remove HALs -->
+     <remove-project name="external_faceunlock" />
 
- 
+
 </manifest>
