@@ -7,7 +7,7 @@
 
      <!-- Sync trees -->
      <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="dot11" />
-     <project path="vendor/xiaomi" name="vendor_xiaomi_mido_1" remote="NRanjan-17" revision="dot11" />
+     <project path="vendor/xiaomi" name="vendor_xiaomi_mido-1" remote="NRanjan-17" revision="dot11" />
      <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
      
 
