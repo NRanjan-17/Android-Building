@@ -6,12 +6,9 @@
 
 
      <!-- Sync trees -->
-     <project path="device/xiaomi/mido" name="device_xiaomi_mido_Pixelos" remote="NRanjan-17" revision="twelve" />
-     <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
-     <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
-     
-     <!-- Remove HALs --> 
-     <remove-project name="external_faceunlock" />
+     <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="NRanjan-17" revision="eleven" />
+     <project path="vendor/xiaomi" name="android_vendor_xiaomi_mido" remote="NRanjan-17" revision="eleven" />
+     <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="NRanjan-17" revision="eleven" />
 
 
 </manifest>
