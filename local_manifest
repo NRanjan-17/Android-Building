@@ -10,6 +10,8 @@
      <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
      <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
      
+     <!-- Remove HALs --> 
+     <remove-project name="external_faceunlock" />
 
 
 </manifest>
