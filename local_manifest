@@ -9,6 +9,5 @@
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
  <project path="device/xiaomi" name="device_xiaomi_msm8953-common" remote="NRanjan-17" revision="snow" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_msm8953-common" remote="NRanjan-17" revision="snow" />
-
-
+ 
 </manifest>
