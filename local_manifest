@@ -2,6 +2,10 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17"/>
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+ 
+ 
 
  <!-- Sync trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
