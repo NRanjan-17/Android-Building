@@ -9,7 +9,7 @@
  
 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido_PixelOS" remote="NRanjan-17" revision="twelve" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
  
