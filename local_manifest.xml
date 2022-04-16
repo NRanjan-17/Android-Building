@@ -12,7 +12,7 @@
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="special" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido_PixelOS" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
 
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
