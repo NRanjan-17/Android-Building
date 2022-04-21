@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="onkarsinghsahil"
-          fetch="https://github.com/onkarsinghsahil"/>
-<remove-project name="frameworks_opt_telephony" />
+ <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
+ <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
+
+ <remove-project name="frameworks_opt_telephony" />
 
 <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="onkarsinghsahil" revision="twelve" />
 
@@ -11,9 +12,9 @@
 <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
  
  
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixysos" />
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="onkarsinghsahil" revision="main" />
- <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="special" />
+ <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
+ <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="NRanjan-17" revision="lineage-19.1" />
  
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
