@@ -11,8 +11,11 @@
 <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
  
  
-<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixysos" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixysos" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="onkarsinghsahil" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="onkarsinghsahil" revision="normal" />
+ 
+ <!-- Proton -->
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
  
 </manifest>
