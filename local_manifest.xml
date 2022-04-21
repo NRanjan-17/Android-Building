@@ -13,7 +13,7 @@
  
  
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="onkarsinghsahil" revision="pixysos" /> 
- <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="onkarsinghsahil" revision="main" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido_PixelOS" remote="NRanjan-17" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="NRanjan-17" revision="lineage-19.1" />
  
  <!-- Proton -->
