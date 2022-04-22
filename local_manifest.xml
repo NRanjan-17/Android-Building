@@ -4,7 +4,7 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="Alone0316" fetch="https://github.com/Alone0316" />
- 
+ <remote name="PixysOS" fetch="" /> 
 
  <remove-project name="frameworks_opt_telephony" />
  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="onkarsinghsahil" revision="twelve" />
