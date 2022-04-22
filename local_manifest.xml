@@ -12,7 +12,7 @@
  <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
  
  
- <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="pixys" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="Pixys" />
  <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="NRanjan-17" revision="lineage-19.1" />
  
