@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="onkarsinghsahil" fetch="https://github.com/onkarsinghsahil"/>
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
 
  <!-- Telephony -->
  <remove-project name="frameworks_opt_telephony" />
- <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="onkarsinghsahil" revision="twelve" />
+ <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="NRanjan-17" revision="twelve" />
 
  <!-- System -->
  <remove-project name="system_bt" />
- <project path="system/bt" name="system_bt" remote="onkarsinghsahil" revision="twelve" />
+ <project path="system/bt" name="system_bt-1" remote="NRanjan-17" revision="twelve" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="Pixys" />
