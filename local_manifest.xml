@@ -4,23 +4,14 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
- <remote name="GhostMaster69-dev" fetch="https://github.com/GhostMaster69-dev" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt-2" remote="NRanjan-17" revision="snow" />
  
- <!-- Wlan -->
- <remove-project name="android_hardware_qcom_wlan" />
- <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="GhostMaster69-dev" revision="android-12.0-caf-4.9-S" />
- 
- <!-- Addon -->
- <remove-project name="packages_resources_devicesettings" />
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
-
  <!--Trees-->
- <project path="device/xiaomi/mido" name="android_device_xiaomi_mido-2" remote="NRanjan-17" revision="evolution" />
- <project path="vendor/xiaomi" name="vendor_mido" remote="NRanjan-17" revision="twelve" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="evolution" />
+ <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
 
  <!-- Proton -->
