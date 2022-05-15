@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
 
@@ -16,8 +17,11 @@
  <remove-project name="vendor_pixys" />
  <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="twelve" />
  
+ <!-- Addon -->
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
+ 
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="Pixys" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="PixysOS" />
  <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
  
