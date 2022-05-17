@@ -21,7 +21,7 @@
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido_pixel" remote="NRanjan-17" revision="PixysOS" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS" />
  <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="NRanjan-17" revision="lineage-19.1" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="NRanjan-17" revision="normal" />
  
