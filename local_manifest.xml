@@ -6,8 +6,8 @@
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
 
  <!-- Telephony -->
- <remove-project name="frameworks_opt_telephony" />
- <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="NRanjan-17" revision="twelve" />
+ <!--<remove-project name="frameworks_opt_telephony" />-->
+ <!--<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="NRanjan-17" revision="twelve" />-->
 
  <!-- System -->
  <remove-project name="system_bt" />
