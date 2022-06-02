@@ -17,6 +17,10 @@
  <remove-project name="frameworks_native" />
  <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="twelve" />
  
+ <!-- Vendor -->
+ <remove-project name="vendor_pixys" />
+ <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="twelve" />
+ 
  <!-- Addon -->
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixysOS" revision="twelve" />
  
