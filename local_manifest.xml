@@ -5,22 +5,6 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
  
- <!-- Frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="twelve" />
- 
- <!-- Settings -->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="twelve" />
- 
- <!-- Frameworks_native -->
- <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="twelve" />
- 
- <!-- Vendor -->
- <remove-project name="vendor_pixys" />
- <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="twelve" />
- 
  <!-- Addon -->
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixysOS" revision="twelve" />
  
