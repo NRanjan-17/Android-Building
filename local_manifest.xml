@@ -5,6 +5,10 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
  
+ <!-- Frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="twelve" />
+ 
  <!-- Addon -->
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixysOS" revision="twelve" />
  
