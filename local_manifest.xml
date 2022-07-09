@@ -6,6 +6,8 @@
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
 
+ <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="LineageOS" revision="lineage-19.1" />
+ 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Blaze" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
