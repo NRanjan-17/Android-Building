@@ -5,9 +5,6 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
- 
- <remove-project name="system_bt" />
- <project path="system/bt" name="system_bt-2" remote="NRanjan-17" revision="twelve" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Blaze" />
