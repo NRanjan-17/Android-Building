@@ -6,37 +6,11 @@
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
  <remote name="PixysOS-Beta" fetch="https://github.com/PixysOS-Beta" /> 
  
- <!-- packages_apps_Settings -->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="PixysOS-Beta" revision="button" />
- 
- <!-- packages_apps_TouchGestures -->
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixysOS-Beta" revision="button" />
- 
- <!-- Frameworks_native -->
- <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="PixysOS-Beta" revision="button" />
- 
- <!-- vendor_support -->
- <remove-project name="vendor_support" />
- <project path="vendor/support" name="vendor_support" remote="PixysOS-Beta" revision="button" />
- 
- <!-- vendor_pixys -->
- <remove-project name="vendor_pixys" />
- <project path="vendor/pixys" name="vendor_pixys" remote="PixysOS-Beta" revision="button" />
- 
- <!-- Frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="PixysOS-Beta" revision="button" />
- 
  <!-- Addon -->
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixysOS" revision="twelve" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- 
- <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" /> 
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" /> 
 </manifest>
