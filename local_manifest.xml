@@ -6,6 +6,29 @@
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
  
+ <!-- packages_apps_Settings -->
+ <remove-project name="packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="button" />
+
+ <!-- packages_apps_TouchGestures -->
+ <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="button" />
+
+ <!-- Frameworks_native -->
+ <remove-project name="frameworks_native" />
+ <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="button" />
+
+ <!-- vendor_support -->
+ <remove-project name="vendor_support" />
+ <project path="vendor/support" name="vendor_support" remote="NRanjan-17" revision="button" />
+
+ <!-- vendor_blaze -->
+ <remove-project name="vendor_blaze" />
+ <project path="vendor/blaze" name="vendor_blaze" remote="NRanjan-17" revision="button" />
+
+ <!-- Frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button" />
+ 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Blaze" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
