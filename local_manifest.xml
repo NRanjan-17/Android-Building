@@ -3,7 +3,7 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />
+ <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
  
@@ -31,7 +31,7 @@
  <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button" />
  
  <!-- Nothing -->
- <project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />
+ <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Blaze" />
