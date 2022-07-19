@@ -28,7 +28,7 @@
 
  <!-- Frameworks_base -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button" />
+ <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button-new" />
  
  <!-- Nothing -->
  <project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />
