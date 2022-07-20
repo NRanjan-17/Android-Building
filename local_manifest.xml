@@ -9,7 +9,7 @@
  
  <!-- packages_apps_Settings -->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="button-new" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="button" />
 
  <!-- packages_apps_TouchGestures -->
  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="button" />
