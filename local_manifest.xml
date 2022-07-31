@@ -5,7 +5,7 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
- <!--<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />-->
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt" remote="NRanjan-17" revision="twelve" />
@@ -19,5 +19,5 @@
  <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
 
  <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />-->
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
 </manifest>
