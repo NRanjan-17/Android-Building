@@ -5,6 +5,7 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
+ <remote name="Blaze" fetch="https://github.com/Blaze-Broken-Stuff" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
  <!-- Nothing -->
@@ -14,6 +15,27 @@
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Blaze" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+ 
+ <!--FM-->
+ <remove-project name="vendor/qcom-opensource/fm-commonsys" />
+ <project path="vendor/qcom-opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-19.1" />
+ <remove-project name="vendor/qcom/opensource/libfmjni" />
+ <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="LineageOS" revision="lineage-18.1" />
+ <remove-project name="packages/apps/FMRadio" />
+ <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="LineageOS" revision="lineage-18.1" />
+ 
+ <!-- packages_apps_Settings -->
+ <remove-project name="packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings-3" remote="Blaze" revision="12.1" />
+ <!-- packages_services_Telecomm -->
+ <remove-project name="packages_services_Telecomm" />
+ <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Blaze" revision="12.1" />
+ <!-- Frameworks_base -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base-4" remote="Blaze" revision="12.1" />
+ <!-- packages_apps_BlazeHouse -->
+ <remove-project name="packages_apps_BlazeHouse" />
+ <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse-2" remote="Blaze" revision="12.1" />
 
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
