@@ -26,7 +26,7 @@
  
  <!-- packages_apps_Settings -->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings-3" remote="Blaze" revision="12.1" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="12.1" />
  <!-- packages_services_Telecomm -->
  <remove-project name="packages_services_Telecomm" />
  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Blaze" revision="12.1" />
