@@ -19,9 +19,9 @@
  <!--FM-->
  <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-19.1" />
- <rsmove-path name="android_vendor_qcom_opensource_libfmjni" />
+ <rsmove-project name="android_vendor_qcom_opensource_libfmjni" />
  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="LineageOS" revision="lineage-18.1" />
- <remove-path name="android_packages_apps_FMRadio" />
+ <remove-project name="android_packages_apps_FMRadio" />
  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="LineageOS" revision="lineage-18.1" />
  
  <!-- packages_apps_Settings -->
