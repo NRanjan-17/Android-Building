@@ -16,14 +16,6 @@
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  
- <!--FM-->
- <remove-project name="android_vendor_qcom_opensource_fm-commonsys" />
- <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-19.1" />
- <remove-project name="android_vendor_qcom_opensource_libfmjni" />
- <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="LineageOS" revision="lineage-18.1" />
- <remove-project name="android_packages_apps_FMRadio" />
- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="LineageOS" revision="lineage-18.1" />
- 
  <!-- packages_apps_Settings -->
  <remove-project name="packages_apps_Settings" />
  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="12.1" />
