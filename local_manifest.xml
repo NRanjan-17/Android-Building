@@ -5,7 +5,6 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
- <remote name="Blaze" fetch="https://github.com/Blaze-Broken-Stuff" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
  <!-- Nothing -->
