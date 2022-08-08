@@ -16,19 +16,6 @@
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  
- <!-- packages_apps_Settings -->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="12.1" />
- <!-- packages_services_Telecomm -->
- <remove-project name="packages_services_Telecomm" />
- <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="Blaze" revision="12.1" />
- <!-- Frameworks_base -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base-4" remote="Blaze" revision="12.1" />
- <!-- packages_apps_BlazeHouse -->
- <remove-project name="packages_apps_BlazeHouse" />
- <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse-2" remote="Blaze" revision="12.1" />
-
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
 </manifest>
