@@ -9,9 +9,6 @@
  
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt" remote="NRanjan-17" revision="twelve" />
- 
- <remove-project name="packages_apps_Updates" />
- <project path="packages/apps/Updates" name="packages_apps_Updates" remote="NRanjan-17" revision="twelve" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="special" />
