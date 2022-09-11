@@ -10,6 +10,9 @@
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt" remote="NRanjan-17" revision="twelve" />
  
+ <remove-project name="vendor_aosp" />
+ <project path="vendor/aosp" name="vendor_aosp" remote="NRanjan-17" revision="twelve" />
+ 
  <remove-project name="frameworks_opt_telephony" />
  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="NRanjan-17" revision="twelve" />
 
