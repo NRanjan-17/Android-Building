@@ -6,6 +6,10 @@
  <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ 
+ <!--system_core-->
+ <remove-project name="system_core" />
+ <project path="system/core" name="system_core" remote="NRanjan-17" revision="thirteen" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
