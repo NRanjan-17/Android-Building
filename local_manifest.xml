@@ -6,6 +6,7 @@
  <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="Alone0316" fetch="https://github.com/Alone0316" />
  
  <remove-project name="system_bt" />
  <project path="system/bt" name="system_bt" remote="NRanjan-17" revision="twelve" />
@@ -16,7 +17,7 @@
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Alone0316" revision="normal" />
  
  <!-- Nothing -->
  <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
