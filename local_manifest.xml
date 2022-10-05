@@ -33,6 +33,10 @@
  
  <!--packages_apps_TouchGestures-->
  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="button" />
+ 
+ <!--svendor_pixel-framework-->
+ <remove-project name="vendor_pixel-framework" />
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="button" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
