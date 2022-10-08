@@ -11,6 +11,10 @@
  <remove-project name="system_core" />
  <project path="system/core" name="system_core" remote="NRanjan-17" revision="thirteen" />
  
+ <!--packages_modules_Bluetooth-->
+ <remove-project name="packages_modules_Bluetooth" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
+ 
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button" />
@@ -40,8 +44,8 @@
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Nothing -->
  <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
