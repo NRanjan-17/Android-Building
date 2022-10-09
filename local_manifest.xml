@@ -43,7 +43,7 @@
  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="button" />
  
  <!--android_hardware_lineage_compat-->
- <project path="android_hardware_lineage_compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
+ <project path="android/hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
