@@ -7,10 +7,6 @@
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
- <!--system_core-->
- <remove-project name="system_core" />
- <project path="system/core" name="system_core" remote="NRanjan-17" revision="thirteen" />
- 
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
