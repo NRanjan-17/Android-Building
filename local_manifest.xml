@@ -3,15 +3,14 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
- <!-- Nothing -->
- <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
- 
  <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" rdmote="LineageOS" revision="lineage-20.0-legacy-um" />
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
+
+ <!--android_hardware_lineage_compat-->
+ <project path="android/hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
