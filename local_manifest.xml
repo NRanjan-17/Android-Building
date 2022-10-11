@@ -34,9 +34,12 @@
  <!--packages_apps_TouchGestures-->
  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="button" />
  
- <!--svendor_pixel-framework-->
+ <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="button" />
+ 
+ <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" rdmote="LineageOS" revision="lineage-20.0-legacy-um" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen-FBE" />
