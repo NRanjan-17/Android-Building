@@ -14,7 +14,7 @@
  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
 
  <!--android_hardware_lineage_compat-->
- <project path="android/hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
+ <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
 
  <!--frameworks_av-->
  <remove-project name="frameworks_av" />
