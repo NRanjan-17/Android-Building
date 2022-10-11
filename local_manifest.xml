@@ -10,6 +10,9 @@
  <!-- Nothing -->
  <!--<project path="vendor/nothing" name="vendor_nothing" remote="sarthakroy2002" revision="master" />-->
  
+ <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" rdmote="LineageOS" revision="lineage-20.0-legacy-um" />
+ 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
