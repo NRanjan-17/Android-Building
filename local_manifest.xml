@@ -9,7 +9,7 @@
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="RN-4" revision="thirteen" />
  
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
@@ -17,36 +17,32 @@
  
  <!--vendor_aosp-->
  <remove-project name="vendor_aosp" />
- <project path="vendor/aosp" name="vendor_aosp" remote="NRanjan-17" revision="button" />
+ <project path="vendor/aosp" name="vendor_aosp" remote="RN-4" revision="button" />
  
  <!--frameworks_native-->
  <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="button" />
+ <project path="frameworks/native" name="frameworks_native" remote="RN-4" revision="button" />
  
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="button" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="RN-4" revision="button" />
  
  <!--vendor_custom-preference-->
  <remove-project name="vendor_custom-preference" />
- <project path="vendor/custom-preference" name="vendor_custom-preference" remote="NRanjan-17" revision="button" />
+ <project path="vendor/custom-preference" name="vendor_custom-preference" remote="RN-4" revision="button" />
  
  <!--packages_apps_TouchGestures-->
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="button" />
+ <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="RN-4" revision="button" />
  
  <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
- <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="button" />
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="RN-4" revision="button" />
  
  <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
 
  <!--android_hardware_lineage_compat-->
- <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
-
- <!--frameworks_av-->
- <remove-project name="frameworks_av" />
- <project path="frameworks/av" name="frameworks_av" remote="NRanjan-17" revision="thirteen" />
+ <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="RN-4" revision="thirteen" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen-FBE" />
