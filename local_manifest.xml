@@ -3,22 +3,19 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="RN-4" fetch="https://github.com/Redmi-Note-4-4X-NRanjan-17" />
  <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="NRanjan-17" revision="tiramisu" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="RN-4" revision="tiramisu" />
 
  <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
 
  <!--android_hardware_lineage_compat-->
- <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
-
- <!--frameworks_av-->
- <remove-project name="frameworks_av" />
- <project path="frameworks/av" name="frameworks_av-1" remote="NRanjan-17" revision="tiramisu" />
+ <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="RN-4" revision="tiramisu" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-tiramisu" />
