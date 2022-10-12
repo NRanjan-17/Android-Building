@@ -3,7 +3,7 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <!--<remote name="sarthakroy2002" fetch="https://github.com/sarthakroy2002" />-->
+ <remote name="RN-4" fetch="https://github.com/Redmi-Note-4-4X-NRanjan-17" />
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
@@ -13,7 +13,7 @@
  
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="button" />
+ <project path="frameworks/base" name="frameworks_base" remote="RN-4" revision="button" />
  
  <!--vendor_aosp-->
  <remove-project name="vendor_aosp" />
