@@ -6,9 +6,6 @@
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  
- <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
- 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="13" />
