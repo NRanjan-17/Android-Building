@@ -21,6 +21,10 @@
  <!--packages_apps_TouchGestures-->
  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="ProjectBlaze" revision="13" />
  
+ <!--hardware_blaze_interfaces-->
+ <remove-project name="hardware_blaze_interfaces" />
+ <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" remote="NRanjan-17" revision="button" />
+ 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="13" />
