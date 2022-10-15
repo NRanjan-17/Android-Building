@@ -12,7 +12,7 @@
  
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="button" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="13" />
  
  <!--frameworks_native-->
  <remove-project name="frameworks_native" />
