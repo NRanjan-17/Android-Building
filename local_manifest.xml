@@ -8,7 +8,7 @@
  
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="button" />
+ <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="13" />
  
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
