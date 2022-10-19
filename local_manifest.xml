@@ -5,14 +5,23 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" /> 
  <remote name="PixysOS-Beta" fetch="https://github.com/PixysOS-Beta" /> 
+ <remote name="GrapheneOS" fetch="" /> 
  
  <!-- Addon -->
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixysOS" revision="twelve" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-twelve" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="twelve" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="twelve" /> 
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" /> 
+ 
+ <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
+ <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
+
+ <!--android_hardware_lineage_compat-->
+ <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
+ 
+ 
  
  <!-- Proton -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
