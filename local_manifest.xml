@@ -10,9 +10,6 @@
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="RN-4" revision="tiramisu" />
-
- <!--android_vendor_qcom_opensource_data-ipa-cfg-mgr-->
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-20.0-legacy-um" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-tiramisu" />
