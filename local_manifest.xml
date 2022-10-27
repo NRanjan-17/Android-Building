@@ -32,7 +32,7 @@
  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="RN-4" revision="button" />
  
  <!--packages_apps_TouchGestures-->
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="RN-4" revision="button" />
+ <!--<project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="RN-4" revision="button" />-->
  
  <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
