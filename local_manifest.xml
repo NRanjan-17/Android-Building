@@ -9,22 +9,22 @@
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="RN-4" revision="thirteen" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
  
  <!--frameworks_base-->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="RN-4" revision="button" />
+ <!--<remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="RN-4" revision="button" />-->
  
  <!--packages_apps_Settings-->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="RN-4" revision="button" />
+ <!--<remove-project name="packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="RN-4" revision="button" />-->
  
  <!--vendor_pixel-framework-->
- <remove-project name="vendor_pixel-framework" />
- <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="RN-4" revision="button" />
+ <!--<remove-project name="vendor_pixel-framework" />
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="RN-4" revision="button" />-->
 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen-FBE" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
 
