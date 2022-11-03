@@ -15,32 +15,9 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="frameworks_base" remote="RN-4" revision="button" />
  
- <!--packages_modules_Connectivity-->
- <remove-project name="packages_modules_Connectivity" />
- <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="RN-4" revision="button" />
- 
- <!--packages_services_Telecomm-->
- <remove-project name="packages_services_Telecomm" />
- <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="RN-4" revision="button" />
- 
- <!--vendor_aosp-->
- <remove-project name="vendor_aosp" />
- <project path="vendor/aosp" name="vendor_aosp" remote="RN-4" revision="button" />
- 
- <!--frameworks_native-->
- <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="RN-4" revision="button" />
- 
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="RN-4" revision="button" />
- 
- <!--vendor_custom-preference-->
- <remove-project name="vendor_custom-preference" />
- <project path="vendor/custom-preference" name="vendor_custom-preference" remote="RN-4" revision="button" />
- 
- <!--packages_apps_TouchGestures-->
- <!--<project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="RN-4" revision="button" />-->
  
  <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
