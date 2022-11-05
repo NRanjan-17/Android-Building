@@ -6,7 +6,7 @@
  <remote name="RN-4" fetch="https://github.com/Redmi-Note-4-4X-NRanjan-17" />
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="clang" fetch="https://gitlab.com/NRanjan-17" />
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
@@ -30,6 +30,6 @@
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
 
  <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
