@@ -14,15 +14,15 @@
  
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="thirteen" />
+ <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="thirteen-plus" />
  
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="thirteen" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="thirteen-plus" />
  
  <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
- <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="thirteen" />
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="thirteen-plus" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen-FBE" />
