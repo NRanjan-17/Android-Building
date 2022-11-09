@@ -9,7 +9,7 @@
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="RN-4" revision="tiramisu" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="NRanjan-17" revision="tiramisu" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-tiramisu" />
