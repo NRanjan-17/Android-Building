@@ -2,18 +2,9 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
- <remote name="RN-4" fetch="https://github.com/Redmi-Note-4-4X-NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- 
- <!--frameworks_base-->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="RN-4" revision="13" />
-
- <!--packages_apps_Settings-->
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="RN-4" revision="13" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
