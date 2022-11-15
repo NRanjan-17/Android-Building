@@ -14,5 +14,5 @@
  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
  
  <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 </manifest>
