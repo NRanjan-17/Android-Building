@@ -5,6 +5,7 @@
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="13" />
@@ -12,5 +13,6 @@
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+ <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
