@@ -35,7 +35,7 @@
  <project path="vendor/support" name="vendor_support" remote="NRanjan-17" revision="thirteen" />
  
  <!-- packages_apps_TouchGestures -->
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixysOS" revision="thirteen" />
+ <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
