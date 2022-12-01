@@ -14,6 +14,10 @@
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="thirteen" />
  
+  <!-- Frameworks_native -->
+ <remove-project name="frameworks_native" />
+ <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="thirteen" />
+ 
  <!--packages_apps_Settings-->
  <remove-project name="packages_apps_Settings" />
  <project path="packages/apps/Settings" name="packages_apps_Settings-1" remote="NRanjan-17" revision="thirteen" />
