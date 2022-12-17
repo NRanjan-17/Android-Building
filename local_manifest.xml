@@ -6,15 +6,11 @@
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- 
- <!--packages_modules_Bluetooth-->
- <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
+ <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
+ <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
