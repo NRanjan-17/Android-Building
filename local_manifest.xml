@@ -9,7 +9,7 @@
  <remote name="ME" fetch="https://gitlab.com/NRanjan-17" />
 
  <!--Trees-->
- <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="PixysOS-thirteen" />
  <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
  <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
  
