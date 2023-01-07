@@ -10,6 +10,10 @@
  <!--packages_modules_Bluetooth-->
  <remove-project name="android_packages_modules_Bluetooth" />
  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
+ 
+ <!--packages_modules_Bluetooth-->
+ <remove-project name="android_frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="NRanjan-17" revision="thirteen" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Octavi-staging" />
