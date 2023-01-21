@@ -6,10 +6,6 @@
  <remote name="PixysOS" fetch="https://github.com/PixysOS" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  
- <!--packages_modules_Bluetooth-->
- <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-2" remote="NRanjan-17" revision="thirteen" />
- 
  <!--frameworks_base-->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="thirteen" />
@@ -25,21 +21,6 @@
  <!--vendor_pixel-framework-->
  <remove-project name="vendor_pixel-framework" />
  <project path="vendor/pixel-framework" name="vendor_pixel-framework-1" remote="NRanjan-17" revision="thirteen" />
- 
- <!--device_pixys_sepolicy-->
- <remove-project name="device_pixys_sepolicy" />
- <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="NRanjan-17" revision="thirteen" />
- 
- <!--frameworks_av-->
- <remove-project name="frameworks_av" />
- <project path="frameworks/av" name="frameworks_av" remote="NRanjan-17" revision="thirteen" />
- 
- <!--vendor_support-->
- <remove-project name="vendor_support" />
- <project path="vendor/support" name="vendor_support" remote="NRanjan-17" revision="thirteen" />
- 
- <!-- packages_apps_TouchGestures -->
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
