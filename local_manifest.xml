@@ -18,6 +18,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
  
+ <!--vendor_pixys-->
+ <remove-project name="vendor_pixys" />
+ <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="thirteen" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
