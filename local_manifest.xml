@@ -5,6 +5,7 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
@@ -14,4 +15,5 @@
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
 </manifest>
