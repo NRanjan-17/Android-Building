@@ -15,7 +15,7 @@
  
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth-1" remote="NRanjan-17" revision="tiramisu" />
+ <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="tiramisu" />
  
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
