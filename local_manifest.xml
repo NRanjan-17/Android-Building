@@ -14,8 +14,6 @@
  <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
  
  <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="ME" revision="thirteen" />
- 
- <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="PB" revision="13" />
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
