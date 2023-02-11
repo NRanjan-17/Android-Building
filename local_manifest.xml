@@ -3,7 +3,7 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="blaze" fetch="https://github.com/ProjectBlaze" />
+ <remote name="PB" fetch="https://github.com/ProjectBlaze" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="ME" fetch="https://gitlab.com/NRanjan-17" />
@@ -15,7 +15,7 @@
  
  <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="ME" revision="thirteen" />
  
- <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="13" remote="blaze" />
+ <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="PB" revision="13" />
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
