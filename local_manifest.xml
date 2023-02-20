@@ -14,8 +14,8 @@
  <remove-project name="android_frameworks_opt_telephony" />
  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="NRanjan-17" revision="thirteen" />
  
- <!--<remove-project name="android_device_octavi_sepolicy" />
- <project path="device/octavi/sepolicy" name="android_device_octavi_sepolicy" remote="NRanjan-17" revision="thirteen" />-->
+ <remove-project name="android_device_octavi_sepolicy" />
+ <project path="device/octavi/sepolicy" name="android_device_octavi_sepolicy" remote="NRanjan-17" revision="thirteen" />
  
  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
 
