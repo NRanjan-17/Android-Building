@@ -17,7 +17,7 @@
  <remove-project name="platform/system/core" />
  <project path="platform/system/core" name="aosp_core" remote="me" revision="master" />
  
- <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PE" revision="lineage-20.0" />
+ <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PE" revision="thirteen" />
  
  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
  
