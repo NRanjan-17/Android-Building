@@ -9,8 +9,8 @@
  <remote name="aospa" fetch="https://github.com/aospa-mido" />
  
  
- <remove-project name="platform/system/bpf" />
- <project path="platform/system/bpf" name="aosp_bpf" remote="me" revision="master" />
+ <remove-project name="system/bpf" />
+ <project path="system/bpf" name="aosp_bpf" remote="me" revision="master" />
  
  <!--<remove-project name="platform/system/core" />
  <project path="platform/system/core" name="aosp_core" remote="me" revision="master" />-->
