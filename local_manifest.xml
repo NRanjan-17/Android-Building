@@ -32,7 +32,7 @@
    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="LineageOS" revision="lineage-20.0" />
  
  <remove-project name="platform/hardware/qcom/gps" />
- <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="LineageOS" revision="lineage-20.0" />
+ <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="LineageOS" revision="lineage-20.0" />
  
 
  <!--Trees-->
