@@ -6,14 +6,14 @@
  <remote name="me" fetch="https://gitlab.com/NRanjan-17" />
  
  
- <remove-project name="system/bpf" />
- <project path="system/bpf" name="aosp_bpf" remote="me" revision="master" />
+ <remove-project name="platform/system/bpf" />
+ <project path="platform/system/bpf" name="aosp_bpf" remote="me" revision="master" />
  
- <remove-project name="frameworks/opt/telephony" />
- <project path="frameworks/opt/telephony" name="aosp_telephony" remote="me" revision="master" />
+ <remove-project name="platform/frameworks/opt/telephony" />
+ <project path="platform/frameworks/opt/telephony" name="aosp_telephony" remote="me" revision="master" />
  
- <remove-project name="system/core" />
- <project path="system/core" name="aosp_core" remote="me" revision="master" />
+ <remove-project name="platform/system/core" />
+ <project path="platform/system/core" name="aosp_core" remote="me" revision="master" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="4.19" revision="fourteen" />
