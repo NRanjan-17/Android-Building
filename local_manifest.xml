@@ -4,6 +4,7 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="4.19" fetch="https://github.com/mido-4-19" />
  <remote name="me" fetch="https://gitlab.com/NRanjan-17" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  
  
  <remove-project name="platform/system/bpf" />
@@ -14,6 +15,10 @@
  
  <remove-project name="platform/system/core" />
  <project path="platform/system/core" name="aosp_core" remote="me" revision="master" />
+ 
+ <project path="platform/packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-20.0" />
+ 
+ <project path="platform/hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="4.19" revision="fourteen" />
