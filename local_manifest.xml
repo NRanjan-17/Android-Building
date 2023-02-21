@@ -29,7 +29,8 @@
  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-20.0" />
  
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-20.0-legacy-um" />
- 
+  
+  <remove-project name="hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="aospa" revision="topaz-8996" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="topaz-8996" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="topaz-8996" />
