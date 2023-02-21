@@ -12,6 +12,9 @@
  <remove-project name="platform/system/bpf" />
  <project path="system/bpf" name="aosp_bpf" remote="me" revision="master" />
  
+ <remove-project name="platform/frameworks/opt/telephony" />
+ <project path="frameworks/opt/telephony" name="aosp_telephony" remote="me" revision="master" /
+ 
  <!--<remove-project name="platform/system/core" />
  <project path="platform/system/core" name="aosp_core" remote="me" revision="master" />-->
  
