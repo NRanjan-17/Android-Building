@@ -24,7 +24,7 @@
  
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-20.0-legacy-um" />
   
- <remove-project name="platform/device/qcom/common" />
+ <remove-project name="device/qcom/common" />
  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" revision="topaz" />
  
  
