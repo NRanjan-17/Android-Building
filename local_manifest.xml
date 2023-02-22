@@ -7,13 +7,6 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  
- <!--packages_modules_Bluetooth-->
- <remove-project name="android_packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="android_frameworks_opt_telephony" />
- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="NRanjan-17" revision="thirteen" />
- 
  <remove-project name="android_device_octavi_sepolicy" />
  <project path="device/octavi/sepolicy" name="android_device_octavi_sepolicy" remote="NRanjan-17" revision="thirteen" />
  
