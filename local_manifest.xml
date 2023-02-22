@@ -24,7 +24,7 @@
 
  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="LineageOS" revision="lineage-20.0" />
  
- <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="PE" revision="thirteen" />
+ <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="NRanjan-17" revision="thirteen" />
 
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="PE" revision="thirteen" />
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-20.0-legacy-um" />
