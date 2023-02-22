@@ -42,7 +42,7 @@
    <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="PE" revision="thirteen" />
  
  <remove-project name="platform/hardware/qcom/gps" />
- <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospa" revision="topaz" />
+ <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="topaz" />
  
 
  <!--Trees-->
