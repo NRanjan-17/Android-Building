@@ -16,7 +16,7 @@
  <project path="build/soong" name="build_soong" remote="NRanjan-17" revision="thirteen" />
  
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="thirteen" />
+ <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="thirteen" />
  
  <remove-project name="external_protobuf" />
  <project path="external/protobuf" name="external_protobuf" remote="NRanjan-17" revision="thirteen" />
