@@ -17,11 +17,9 @@
  
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="external_protobuf" />
+
  <project path="external/protobuf" name="external_protobuf" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="external_libfuse" />
+
  <project path="external/libfuse" name="external_libfuse" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Proton -->
