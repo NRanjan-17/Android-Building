@@ -10,17 +10,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" /> 
- 
- <remove-project name="build_soong" />
- <project path="build/soong" name="build_soong" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base-1" remote="NRanjan-17" revision="thirteen" />
-
- <project path="external/protobuf" name="external_protobuf" remote="NRanjan-17" revision="thirteen" />
-
- <project path="external/libfuse" name="external_libfuse" remote="NRanjan-17" revision="thirteen" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
