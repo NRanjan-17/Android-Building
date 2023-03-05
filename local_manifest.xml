@@ -15,7 +15,7 @@
  
  <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="ME" revision="thirteen" />
  
- <project path="vendor/MiuiCamera" name="android_vendor_MiuiCamera" remote="camera" revision="thirteen" />
+ <project path="vendor/MiuiCamera" name="android_vendor_MiuiCamera" remote="ME" revision="thirteen" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
