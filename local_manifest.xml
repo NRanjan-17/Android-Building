@@ -7,6 +7,7 @@
  <remote name="camera" fetch="https://gitlab.com/Joker-V2" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="ME" fetch="https://gitlab.com/NRanjan-17" />
+ <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
 
  <!--Trees-->
  <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="PixysOS-thirteen" />
@@ -18,4 +19,5 @@
  <project path="vendor/MiuiCamera" name="android_vendor_MiuiCamera" remote="ME" revision="thirteen" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
 </manifest>
