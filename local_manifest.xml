@@ -10,6 +10,9 @@
  <remove-project name="android_hardware_qcom_wlan" />
  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PixelExperience" revision="thirteen" />
  
+ <remove-project name="frameworks_av" />
+ <project path="frameworks/av" name="frameworks_av" remote="NRanjan-17" revision="13" />
+ 
  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="LineageOS" revision="lineage-20.0" />
  
  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
