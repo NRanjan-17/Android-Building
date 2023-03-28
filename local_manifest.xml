@@ -7,20 +7,8 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  
- <!--<remove-project name="android_device_octavi_sepolicy" />
- <project path="device/octavi/sepolicy" name="android_device_octavi_sepolicy" remote="NRanjan-17" revision="thirteen" />-->
- 
- <remove-project name="android_packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />
- 
  <remove-project name="android_hardware_qcom_wlan" />
  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PixelExperience" revision="thirteen" />
- 
- <remove-project name="android_device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="android_system_sepolicy" />
- <project path="system/sepolicy" name="android_system_sepolicy" remote="NRanjan-17" revision="thirteen" />
  
  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
 
