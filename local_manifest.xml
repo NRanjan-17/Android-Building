@@ -17,10 +17,10 @@
  <project path="frameworks/base" name="frameworks_base" remote="droidx" revision="wip" />
  
  <remove-project name="vendor_droidx" />
- <project path="vendor/droidx" name="vendor_droidx" remote="NRanjan-17" revision="wip" />
+ <project path="vendor/droidx" name="vendor_droidx" remote="drodx" revision="wip" />
  
  <remove-project name="packages_apps_Launcher3" />
- <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="NRanjan-17" revision="thirteen" />
+ <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droidx" revision="wip" />
 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="droidx" />
