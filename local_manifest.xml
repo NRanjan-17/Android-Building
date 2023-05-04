@@ -10,12 +10,6 @@
  
  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
  
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="droid" revision="wip" />
- 
- <remove-project name="packages_apps_Launcher3" />
- <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="droid" revision="wip" />
-
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="droidx" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
