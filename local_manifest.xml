@@ -4,19 +4,18 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="gta4l" fetch="https://github.com/chrmhoffmann" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- 
- <!--packages_modules_Bluetooth-->
- <!--<remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="thirteen" />-->
 
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="gta4l" revision="lineage-20" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="gta4l" revision="lineage-20" />
+ <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="gta4l" revision="lineage-20" />
+ <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="gta4l" revision="lineage-20" />
+ <project path="kernel/samsung/sm6115" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
 
- <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
+ <!-- Extra -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="LineageOS" revision="lineage-20.0" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-20" />
 </manifest>
