@@ -10,12 +10,10 @@
 
  <!--Trees-->
  <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="13b" />
- <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="NRanjan-17" revision="13" />
+ <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
  <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="NRanjan-17" revision="thirteen" />
  
  <project path="vendor/xiaomi-firmware" name="vendor_xiaomi-firmware" remote="ME" revision="thirteen" />
- 
- <project path="vendor/MiuiCamera" name="android_vendor_MiuiCamera" remote="ME" revision="thirteen" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
