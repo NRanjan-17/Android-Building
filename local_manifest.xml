@@ -8,8 +8,6 @@
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="droid" fetch="https://github.com/DroidX-UI" />
  
- <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
- 
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="droidx" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
