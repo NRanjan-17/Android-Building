@@ -24,8 +24,4 @@
  <project path="vendor/support" name="vendor_support" remote="droid" revision="EXP" />
  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droid" revision="EXP" />
  <project path="vendor/droidx" name="vendor_droidx" remote="droid" revision="EXP" />
-
- <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
- <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
 </manifest>
