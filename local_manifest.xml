@@ -12,16 +12,4 @@
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="droidx" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
-
- <remove-project name="frameworks_base" />
- <remove-project name="frameworks_native" />
- <remove-project name="vendor_support" />
- <remove-project name="packages_apps_Settings" />
- <remove-project name="vendor_droidx" />
-
- <project path="frameworks/base" name="frameworks_base" remote="droid" revision="EXP" />
- <project path="frameworks/native" name="frameworks_native" remote="droid" revision="EXP" />
- <project path="vendor/support" name="vendor_support" remote="droid" revision="EXP" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="droid" revision="EXP" />
- <project path="vendor/droidx" name="vendor_droidx" remote="droid" revision="EXP" />
 </manifest>
