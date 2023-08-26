@@ -15,7 +15,5 @@
  <project path="kernel/samsung/sm6115" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
 
  <!-- Extra -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="LineageOS" revision="lineage-20.0" />
  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-20" />
 </manifest>
