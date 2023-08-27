@@ -15,5 +15,5 @@
  <project path="kernel/samsung/gta4l" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
 
  <!-- Extra -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="PixelExperience" revision="thirteen" />
+ <project path="hardware/samsung" name="hardware_samsung" remote="PixelExperience" revision="thirteen" />
 </manifest>
