@@ -15,5 +15,5 @@
  <project path="kernel/samsung/sm6115" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
 
  <!-- Extra -->
- <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-20" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="PixelExperience" revision="thirteen" />
 </manifest>
