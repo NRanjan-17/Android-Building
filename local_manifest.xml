@@ -8,8 +8,8 @@
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
  <!--Trees-->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="NRanjan-17" revision="arrow" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="gta4l" revision="lineage-20" />
+ <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="NRanjan-17" revision="thirteen" />
  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="gta4l" revision="lineage-20" />
  <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="gta4l" revision="lineage-20" />
  <project path="kernel/samsung/sm6115" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
