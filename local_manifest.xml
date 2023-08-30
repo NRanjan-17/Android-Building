@@ -2,39 +2,11 @@
 <manifest>
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="PixysOS" fetch="https://github.com/PixysOS" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="PixysOS-thirteen" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="thirteen" />
  
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="packages_apps_Settings" />
- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="vendor_pixel-framework" />
- <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="system_sepolicy" />
- <project path="system/sepolicy" name="system_sepolicy" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="NRanjan-17" revision="thirteen" />
- 
- <remove-project name="packages_apps_TouchGestures" />
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="NRanjan-17" revision="thirteen" />
- 
- <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
 </manifest>
