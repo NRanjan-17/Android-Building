@@ -3,7 +3,7 @@
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="droid" fetch="https://github.com/DroidX-UI" />
+ <remote name="droidx" fetch="https://github.com/DroidX-UI" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="dx-14-v2" />
