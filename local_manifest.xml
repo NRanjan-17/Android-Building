@@ -2,14 +2,9 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-udc" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="14" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-udc-xyz" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v2" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v2" />
 </manifest>
