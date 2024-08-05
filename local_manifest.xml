@@ -2,7 +2,6 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
- <remote name="lineage" fetch="https://github.com/LineageOS" />
 
  <!--Trees-->
  <project path="device/samsung/gta4l" name="device_samsung_gta4l" remote="NRanjan-17" revision="fourteen-v3" />
@@ -12,5 +11,5 @@
  <project path="kernel/samsung/gta4l" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="fourteen-v3" />
 
  <!-- Extra -->
- <project path="hardware/samsung" name="hardware_samsung" remote="lineage" revision="lineage-21" />
+ <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" revision="lineage-21" />
 </manifest>
