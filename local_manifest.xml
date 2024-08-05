@@ -2,18 +2,15 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
- <remote name="gta4l" fetch="https://github.com/chrmhoffmann" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="lineage" fetch="https://github.com/LineageOS" />
 
  <!--Trees-->
- <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
- <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="NRanjan-17" revision="thirteen" />
- <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="gta4l" revision="lineage-20" />
- <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="gta4l" revision="lineage-20" />
- <project path="kernel/samsung/gta4l" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="thirteen" />
+ <project path="device/samsung/gta4l" name="device_samsung_gta4l" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="device/samsung/gta4l-common" name="device_samsung_gta4l-common" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="vendor/samsung/gta4l" name="vendor_samsung_gta4l" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="vendor/samsung/gta4l-common" name="vendor_samsung_gta4l-common" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="kernel/samsung/gta4l" name="kernel_samsung_gta4l" remote="NRanjan-17" revision="fourteen-v3" />
 
  <!-- Extra -->
- <project path="hardware/samsung" name="hardware_samsung" remote="PixelExperience" revision="thirteen" />
+ <project path="hardware/samsung" name="hardware_samsung" remote="lineage" revision="lineage-21" />
 </manifest>
