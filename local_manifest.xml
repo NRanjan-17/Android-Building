@@ -8,6 +8,6 @@
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
 
-  <remove-project name="vendor_gms" /
+ <remove-project name="vendor_gms" />
  <project path="vendor/gms" name="vendor_gms" remote="NRanjan-17" revision="14_v3" />
 </manifest>
