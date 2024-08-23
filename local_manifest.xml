@@ -5,6 +5,6 @@
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-udc-xyz" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v2" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v2" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
 </manifest>
