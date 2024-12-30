@@ -4,7 +4,7 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-udc-xyz" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fourteen-v3" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-vic" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fifteen" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="fifteen" />
 </manifest>
